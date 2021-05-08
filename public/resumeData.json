@@ -1,0 +1,153 @@
+{
+  "main": {
+    "name": "Shubham Singh",
+    "occupation": "Full Stack React Developer",
+    "description": "currently employed by Infosys as an Application Developer where I analyze requirements, develop new systems for a major helthcare company and slap my keyboard until everything works ",
+    "image": "profilepic.jpg",
+    "bio": "23 year CS graduate, self-taught full stack developer who has primarily worked on the MERN stack. Moved to Pune where I work as an application developer for Infosys [ Currently working remotely from Varanasi due to the pandemic ], alongside my many ongoing personal projects. Outside of work I follow Football and am a FC Barcelona fan, love to travel and always chasing new adventures.",
+    "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
+    "email": "shubhamsingh.12141@gmail.com",
+    "phone": "+91 8629009934",
+    "address": {
+      "street": "Rudra Samriddhi, Bhagwanpur,",
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "zip": "221005"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/cule1109",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/shubham-singh-10967a180/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/shubhamsingh11",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Technologies",
+    "education": [
+      {
+        "school": "Jaypee University of Information Technology",
+        "degree": "Bachelor of Technology in Computer Science Engineering",
+        "graduated": "May 2019",
+        "description": "Graduated with a CGPA of 6.9"
+      },
+      {
+        "school": "Sunbeam School Bhagwanpur",
+        "degree": "Senior Secondary",
+        "graduated": "March 2015",
+        "description": "Graduated with 88%"
+      }
+    ],
+    "work": [
+      {
+        "company": "Infosys",
+        "title": "System Engineer",
+        "years": "August 2019 - Present",
+        "description": "Developed new systems for clients, analyzed requirements, produced mapping documents & tested systems.Currently serving the role of Kanban Master in my team."
+      },
+      {
+        "company": "Infosys",
+        "title": "Internship Trainee",
+        "years": "Feb 2019 - May 2019",
+        "description": "Learnt Python Programming including OOP concepts and basic data structures.Learnt C# and the MVC architecture. Created multiple C# applications following the principle of MVC architecture."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "description": "I use GIT for nearly all my projects",
+        "image": "resume-website.jpg"
+      },
+      {
+        "name": "Illustrator",
+        "description": "I use GIT for nearly all my projects",
+        "image": "resume-website.jpg"
+      },
+      {
+        "name": "ReactJs",
+        "description": "I use GIT for nearly all my projects",
+        "image": "resume-website.jpg"
+      },
+      {
+        "name": "CSS",
+        "description": "I use GIT for nearly all my projects",
+        "image": "resume-website.jpg"
+      },
+      {
+        "name": "HTML5",
+        "description": "I use GIT for nearly all my projects",
+        "image": "resume-website.jpg"
+      },
+      {
+        "name": "VueJs",
+        "description": "I use GIT for nearly all my projects",
+        "image": "resume-website.jpg"
+      },
+      {
+        "name": "MongoDB",
+        "description": "I use GIT for nearly all my projects",
+        "image": "resume-website.jpg"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Canadian Wanderlust",
+        "category": "My Travel Blog for my post-university travels",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://www.canadianwanderlust.com"
+      },
+      {
+        "title": "Fury Fighting Gear",
+        "category": "(offline now) A fighting gear company I started",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Original Thai Food",
+        "category": "Website I built for a restaurant I like in Thailand",
+        "image": "original-thai-food.jpg",
+        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title": "Resume Website",
+        "category": "A React based resume website template",
+        "image": "resume-website.jpg",
+        "url": "http://www.timbakerdev.com"
+      },
+      {
+        "title": "Smirkspace",
+        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "image": "smirkspace.jpg",
+        "url": "http://www.smirkspace.com"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+    ]
+  }
+}
