@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/shubhamsingh11.github.io/static/css/main.bab0b925.chunk.css",
+    "main.js": "/shubhamsingh11.github.io/static/js/main.d677b01a.chunk.js",
+    "main.js.map": "/shubhamsingh11.github.io/static/js/main.d677b01a.chunk.js.map",
+    "runtime-main.js": "/shubhamsingh11.github.io/static/js/runtime-main.f6329c49.js",
+    "runtime-main.js.map": "/shubhamsingh11.github.io/static/js/runtime-main.f6329c49.js.map",
+    "static/js/2.2ff18def.chunk.js": "/shubhamsingh11.github.io/static/js/2.2ff18def.chunk.js",
+    "static/js/2.2ff18def.chunk.js.map": "/shubhamsingh11.github.io/static/js/2.2ff18def.chunk.js.map",
+    "index.html": "/shubhamsingh11.github.io/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/shubhamsingh11.github.io/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.2ff18def.chunk.js.LICENSE.txt": "/shubhamsingh11.github.io/static/js/2.2ff18def.chunk.js.LICENSE.txt",
+    "static/media/Shubham_resume.caefc55b.pdf": "/shubhamsingh11.github.io/static/media/Shubham_resume.caefc55b.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6329c49.js",
+    "static/js/2.2ff18def.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.d677b01a.chunk.js"
+  ]
+}
