@@ -14,8 +14,8 @@
       "state": "Uttar Pradesh",
       "zip": "221005"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "website": "https://shubhamsingh11.github.io/",
+    
     "social": [
       {
         "name": "facebook",
@@ -77,72 +77,62 @@
     "skills": [
       {
         "name": "Git",
-        "description": "I use GIT for nearly all my projects",
-        "image": "resume-website.jpg"
+        "description": "I use Git for all of my projects so far. I have mostly used Git for version control in small teams.",
+        "image": "Git.png"
       },
       {
-        "name": "Illustrator",
-        "description": "I use GIT for nearly all my projects",
-        "image": "resume-website.jpg"
+        "name": "React JS",
+        "description": "Started to develop webpages using React since the beginning of last year and haven't looked back due to its simplicity and flexibility. This site is built using React JS.",
+        "image": "reactJs.png"
       },
       {
-        "name": "ReactJs",
-        "description": "I use GIT for nearly all my projects",
-        "image": "resume-website.jpg"
+        "name": "Node JS",
+        "description": "Node JS is my server-side scripting language of choice. The bulk of my experience with it has been in conjunction with ReactJS-based projects",
+        "image": "NodeJS.jpg"
       },
       {
-        "name": "CSS",
-        "description": "I use GIT for nearly all my projects",
-        "image": "resume-website.jpg"
+        "name": "Javascript",
+        "description": "I started using JavaScript for server side while developing websites using NodeJS and Express, after I started developing webpages via ReactJS I started using it for front-end development as well.",
+        "image": "JS.png"
       },
       {
-        "name": "HTML5",
-        "description": "I use GIT for nearly all my projects",
-        "image": "resume-website.jpg"
+        "name": "Mongo DB",
+        "description": "I have worked with both relational databases like SQL and noSQL databases like MongoDB and Firebase. MongoDB is my choice of database, even though it's easy to use it still provides all the capabilities needed to meet the complex requirements of modern applications.",
+        "image": "MongoDB.jpg"
       },
       {
-        "name": "VueJs",
-        "description": "I use GIT for nearly all my projects",
-        "image": "resume-website.jpg"
+        "name": "Heroku",
+        "description": "I use Heroku as my hosting platform for most of my projects because so far they are all unpaid and their free tier is convenient. I also appreciate its integration with Github for such simple deployment.",
+        "image": "heroku.png"
       },
       {
-        "name": "MongoDB",
-        "description": "I use GIT for nearly all my projects",
-        "image": "resume-website.jpg"
+        "name": "Material UI",
+        "description": "Material-UI is a simple and customizable component library to build faster, beautiful, and more accessible React applications. It has helped me to design my websites faster while keeping the UI consistent throughout the application",
+        "image": "materialui.png"
       }
+      
     ]
   },
   "portfolio": {
     "projects": [
+      
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
-        "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "title": "Cwn Clothing",
+        "category": "An e-commerce site built using ReactJS, Firebase , Redux , Hooks & GraphQL",
+        "image": "cwn-clothing.jpg",
+        "url": "https://crwn-sh-live.herokuapp.com/"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "title": "Tibsy News Application",
+        "category": "A conversational news web application built using ReactJS and Alan AI.",
+        "image": "tibsy.jpg",
+        "url": "https://flamboyant-leakey-66dc00.netlify.app/"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
-        "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
-      },
-      {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Video Chat Application",
+        "category": "A Video Chat Application built using ReactJS and webRTC [Offline Currently]",
+        "image": "WEBRTC.jpg",
+        "url": ""
       }
     ]
   },

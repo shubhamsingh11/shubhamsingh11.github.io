@@ -8,7 +8,7 @@ class Portfolio extends Component {
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+            <a href={projects.url} target="_blank" rel="noopener noreferrer" title={projects.title}>
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -26,7 +26,7 @@ class Portfolio extends Component {
     return (
       <section id="portfolio">
 
-      <div className="row">
+      <div className="row three ">
 
          <div className="twelve columns collapsed">
 

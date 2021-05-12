@@ -8,12 +8,12 @@ class Resume extends Component {
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-        <p>{education.description}</p></div>
+        <p className="info2">{education.description}</p></div>
       })
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p>{work.description}</p>
+            <p className="info2">{work.description}</p>
         </div>
       })
       // var skills = this.props.data.skills.map(function(skills){
@@ -21,11 +21,11 @@ class Resume extends Component {
       //   return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       // })
       var skills = this.props.data.skills.map(function (skill) {
-        var projectImage = 'images/portfolio/' + skill.image;
-        return <div key={skill.name} className="columns ">
-          <img className='skill' alt={skill.name} src={projectImage} />
-          <h5 style={{ color: 'black' }}>{skill.name}</h5>
-          <p>{skill.description}</p>
+        var projectImage = 'images/technology/' + skill.image;
+        return <div key={skill.name} className="columns img-skill">
+          <img style={{ "height" : "150px", "width":"150px" }} className='skill' alt={skill.name} src={projectImage} />
+          <h5 className="info4">{skill.name}</h5>
+          <p className="info3">{skill.description}</p>
         </div>
       })
     }
@@ -67,7 +67,7 @@ class Resume extends Component {
             <h1><span>{skillmessage}</span></h1>
          </div>
 
-        <div className="nine columns main-col">
+        <div className="nine columns main-col ">
           <ul className="bgrid-thirds ">
                 {skills}
           </ul>

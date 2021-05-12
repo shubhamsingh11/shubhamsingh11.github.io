@@ -95,7 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { color: #c1f113da; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -243,7 +243,7 @@ ul#nav li.current a { color: #c1f113da; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background:rgba(255, 255, 255, 0.952);
+   background:#043a3a;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -256,13 +256,15 @@ ul#nav li.current a { color: #c1f113da; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   color: #ffffff;
 }
 #resume h1 span {
-   border-bottom: 3px solid #11ABB0;
+   border-bottom: 3px solid #4ac27c;
    padding-bottom: 6px;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+   color: #ffffff;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -277,10 +279,27 @@ ul#nav li.current a { color: #c1f113da; }
 
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #000000;
+   color: #ffffffe7;
    margin-bottom: 18px;
    margin-top: 9px;
 }
+#resume .info2 {
+   font: 15px/22px 'opensans-regular', sans-serif;
+   color: #ffffffe7;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#resume .info3 {
+   font: 14px/18px 'librebaskerville-italic', serif;
+   color: #ffffffb9;
+   height: 170px;
+ }
+ #resume .info4 {
+   font: 20px/15px 'opensans-bold', sans-serif;
+   padding-bottom : 10px;
+   color: #ffffffe7;
+   text-align: left;
+ }
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
@@ -300,7 +319,7 @@ ul#nav li.current a { color: #c1f113da; }
 	padding: 0;
 	text-align: left;
 }
-.bars .skills {
+ .skills {
   	margin-top: 36px;
    list-style: none;
 }
@@ -422,22 +441,25 @@ ul#nav li.current a { color: #c1f113da; }
   100% { width: 80%;  }
 }  */
 
+
+
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #313131;
    padding-top: 90px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font : 19px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
-   letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   letter-spacing: 3px;
+   color: #ffffff;
+   padding-bottom: 6px;
 }
 
 /* Portfolio Content */
@@ -659,9 +681,8 @@ call-to-action .button {
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
-
+   height: 0px;
    position: relative;
-   min-height: 200px;
    width: 100%;
    overflow: hidden;
 }
@@ -807,7 +828,7 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #e6d8d8;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -841,6 +862,7 @@ call-to-action .button {
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+   color : #f5dbdb
 }
 #contact .header-col { padding-top: 6px; }
 

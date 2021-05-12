@@ -54,6 +54,7 @@ class App extends Component {
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
       </div>
+      
     );
   }
 }
