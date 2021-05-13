@@ -19,8 +19,10 @@ class App extends Component {
       resumeData: {}
     };
 
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.initialize('UA-159494291-1');
+
+    //to report page view
+    ReactGA.pageview(window.location.pathname);  //window.location.pathname --> gets the current page address (URL)
 
   }
 
