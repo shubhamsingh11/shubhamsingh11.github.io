@@ -1,10 +1,11 @@
 {
   "main": {
+    "firstName" : "Shubham",
     "name": "Shubham Singh",
-    "occupation": "Full Stack React Developer",
-    "description": "Currently employed by Infosys as an Application Developer where I analyze requirements, develop new systems for a major healthcare company and slap my keyboard until everything works ",
+    "occupation": "React JS Developer",
+    "description": "Currently employed at Accenture as an Application Development Analyst where I translate design & wireframes into high-quality user interfaces for a leading hotel brand and slap my keyboard until everything works ",
     "image": "profilepic.jpg",
-    "bio": "23 year CS graduate, self-taught full stack developer who has primarily worked on the MERN stack. Moved to Pune where I work as an application developer for Infosys [ Currently working remotely from Varanasi due to the pandemic ], alongside my many ongoing personal projects. Outside of work I follow Football and am a FC Barcelona fan, love to travel and always chasing new adventures.",
+    "bio": "25 year CS graduate, React JS developer. Working as an Application Development Analyst at Accenture, alongside my many ongoing personal projects. Outside of work I follow Football and am a FC Barcelona fan, love to travel and always chasing new adventures.",
     "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
     "email": "shubhamsingh.12141@gmail.com",
     "phone": "+91 8629009934",
@@ -34,7 +35,7 @@
       },
       {
         "name": "instagram",
-        "url": "http://instagram.com/",
+        "url": "http://instagram.com/shubham11.09",
         "className": "fa fa-instagram"
       },
       {
@@ -62,10 +63,16 @@
     ],
     "work": [
       {
+        "company": "Accenture",
+        "title": "Application Development Analyst",
+        "years": "December 2021 - Present",
+        "description": "Translated design & wireframes into high-quality code and wrote application interface code via JavaScript following React.js workflows."
+      },
+      {
         "company": "Infosys",
         "title": "System Engineer",
-        "years": "August 2019 - Present",
-        "description": "Developed new systems for clients, analyzed requirements, produced mapping documents & tested systems.Currently serving the role of Kanban Master in my team."
+        "years": "August 2019 - November 2021",
+        "description": "Developed multiple dynamic and interactive pages using React JS, HTML, CSS and JavaScript. Optimize for maximum performance across a vast array of web-capable devices and browsers."
       },
       {
         "company": "Infosys",

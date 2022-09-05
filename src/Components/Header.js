@@ -7,6 +7,7 @@ class Header extends Component {
     if(this.props.data  ){
       var data = this.props.data;
       var name = data.name;
+      var firstName = data.firstName;
       var occupation= data.occupation;
       var description= data.description;
       //var city= data.address.city;
@@ -25,7 +26,7 @@ class Header extends Component {
          
          
          <ul id="nav" className="nav">
-            <img className="logo" src={logo} alt="logo"/>
+            
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
@@ -37,7 +38,7 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h2 className="responsive-headline">I'm {name}.</h2>
+            <h2 className="responsive-headline">Hello, I'm {firstName} !</h2>
             <h3>I'm a <span>{occupation}</span>. {description}.</h3>
             <hr />
             <ul className="social">
